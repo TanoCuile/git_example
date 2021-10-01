@@ -32,8 +32,7 @@ export class UserService {
     return this.userRepository.update(
       { id: userId },
       {
-        firstName: user.userName || undefined,
-        lastName: '-',
+        name: user.userName || undefined,
         age: user.age || undefined,
       },
     );

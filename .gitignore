@@ -2,3 +2,5 @@ data
 .vscode/*
 !.vscode/settings.json
 node_modules
+package-lock.json
+yarn.lock

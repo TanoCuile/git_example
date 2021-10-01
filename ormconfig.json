@@ -1,0 +1,20 @@
+{
+  "password": "ExPMan",
+  "username": "expenses_admin",
+  "database": "expenses_app",
+  "type": "postgres",
+  "host": "localhost",
+  "port": "5450",
+  "synchronize": false,
+  "logging": true,
+  "entities": ["src/modules/database/entities/**/*.ts"],
+  "migrations": ["src/modules/database/migrations/**/*.ts"],
+  "subscribers": [],
+  "reconnectTries": 50,
+  "autoReconnect": true,
+  "reconnectInterval": 2000,
+  "cli": {
+    "entitiesDir": "src/db/entities",
+    "migrationsDir": "src/db/migrations"
+  }
+}
